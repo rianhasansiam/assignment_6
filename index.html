@@ -98,6 +98,27 @@
 
     
 
+    <main id="main" class=" container   m-auto">
+
+        <!-- menu section -->
+        <section>
+            <div class="w-[90%] lg:w-[70%]  m-auto text-center">
+                <h1 class="font-extrabold text-4xl lg:text-5xl pt-20 ">Adopt Your Best Friend</h1>
+                <p class=" text-lg py-10">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+            </div>
+
+            <!-- menu button section -->
+            <div id="catagorySection" class=" flex  justify-center gap-2    ">
+
+            </div>
+
+            <div  class="flex justify-between w-[85%] m-auto py-10 mt-10 items-center">
+                <h1 class="font-extrabold text-2xl">Best Deal For you</h1>
+                <button id="shortByPrice" class="btn   block bg-[#0E7A81] text-base  text-white">Sort by
+                    Price</button>
+            </div>
+        </section>
 
 
 
@@ -105,7 +126,97 @@
 
 
 
-    
+        <section
+            class="lg:w-full flex flex-col-reverse lg:flex-row gap-5 lg:gap-1 lg:justify-between lg:items-start items-center ">
+            <!-- js section -->
+            <!-- left -->
+            <div id="borderFact" class="w-[90vw] lg:w-[100%] mb-5   ">
+                <!-- all pet -->
+                <div id="allPetList" class="w-[100%] lg:pl-1 flex flex-wrap  gap-5 lg:gap-2   ">
+                    <span id="loading" class="loading loading-bars loading-lg m-auto"></span>
+
+                </div>
+
+                <!-- dogs -->
+                <div id="dogs" class="w-[100%] flex flex-col items-center   hidden">
+                    <span id="loadingdog" class="loading loading-bars loading-lg m-auto"></span>
+
+                    <div id="dogcard" class="w-[100%] lg:pl-1 flex flex-wrap  gap-5 lg:gap-2 hidden">
+                        <!-- js card -->
+                    </div>
+
+                </div>
+                <!-- cats -->
+                <div id="cats" class="w-[100%] flex flex-col items-center  hidden ">
+                    <span id="loadingcat" class="loading loading-bars loading-lg m-auto"></span>
+
+                    <div id="catcard" class="w-[100%] lg:pl-1 flex flex-wrap  gap-5 lg:gap-2 hidden">
+                        <!-- js card -->
+                    </div>
+
+                </div>
+                <!-- rabbits -->
+                <div id="rabbits" class="w-[100%] flex flex-col items-center  hidden">
+                    <span id="loadingrabbit" class="loading loading-bars loading-lg m-auto"></span>
+
+                    <div id="rabbitcard" class="w-[100%] lg:pl-1 flex flex-wrap  gap-5 lg:gap-2 hidden">
+                        <!-- js card -->
+                    </div>
+
+                </div>
+
+                <!-- birds -->
+                <div id="birds" class="w-[100%]  flex flex-wrap gap-10  hidden  ">
+                    <span id="loadingbirds" class="loading loading-bars loading-lg m-auto"></span>
+
+
+                    <div id="birdPart"
+                        class="bg-gray-200 m-auto  text-center flex flex-col items-center p-8 w-[90%]   rounded-2xl hidden">
+
+                        <!-- bird error mesg -->
+
+                        <img src="./images/error.webp" alt="">
+                        <h1 class="font-extrabold text-2xl my-5">No Information Available</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using is that it has a.</p>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- right -->
+            <div
+                class="w-[80vw] lg:w-[25%]   max-h-[600px] min-h-[400px]  overflow-y-auto border rounded-xl py-5  shadow-md">
+
+
+
+                <div id="likePic" class="flex flex-wrap gap-2 lg:gap-1  w-[95%] m-auto">
+                    <!-- js -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
     <script src="./script.js"></script>
 </body>
 
