@@ -164,7 +164,7 @@ const modalDes = async (access, id) => {
             
             <div class="modal-action mt-0   justify-center">
                 <form method="dialog">
-                    <button class="btn text-lg text-[#0E7A81] bg-[#0e798118] px-28 lg:px-64 border-[#0E7A81]">Cancel</button>
+                    <button class="btn text-lg text-[#0E7A81] bg-[#0e798118] px-28 lg:px-36 border-[#0E7A81]">Cancel</button>
                 </form>
     
     
